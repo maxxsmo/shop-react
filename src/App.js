@@ -6,12 +6,12 @@ import Link from "./components/Link.js";
 
 export default function App() {
   return (
-    <Container>
-      <Link href="https://www.amazon.fr/">Voir la boutique</Link>
+    <Container className="app">
+      <Link href="https://react-tutorial.app">Voir la boutique</Link>
       <Button type="submit" disabled={true}>
-        Cliquez ici
+        Login
       </Button>
-      <Input placeholder="test" name="test name" />
+      <Input placeholder="Full Name" name="full_name" />
     </Container>
   );
 }
